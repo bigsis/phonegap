@@ -1,0 +1,23 @@
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<button id = "btn">HelloWorld</button>
+		<button id = "clear">clear</button>
+		<div id="results"></div>
+		<script src="change.js"></script>
+		<script src="hello.js"></script>
+		<script>
+			$('#btn').click(function(){
+				silly.DoIt($('#results'));
+				console.log("shit");
+			});
+		</script>
+		<script>
+			$('#clear').click(function(){
+				$('#results').html('');
+			});
+		</script>
+	</body>
+</html>
